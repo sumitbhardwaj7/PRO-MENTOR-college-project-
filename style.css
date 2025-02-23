@@ -1483,7 +1483,7 @@ margin: 2vw;
 }
 
 #looper-3{
- border: 2px solid green;
+ 
 height: 20vw;
 backgrounD-image: url("WhatsApp Image 2025-02-23 at 16.07.43_47d04c88.jpg");
 background-size: cover;
@@ -1680,9 +1680,10 @@ color: beige;
   font-size: 2vw;
   padding-left: 7vw;
   padding-right: 20vw;
-  color: beige;
- font-weight: 500;
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: beige; 
+    font-family: "Cedarville Cursive", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #scar-4{
