@@ -1,0 +1,1915 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Rubik+Distressed&family=Trade+Winds&display=swap');
+
+
+
+* {
+  margin: 0px;
+
+
+}
+
+.backg {
+  height: 120vh;
+  background-image: url('nir-himi-A94bN7z4w0E-unsplash (1).jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: sticky;
+  background-position: center;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.container-1 {
+  color: beige;
+  margin-top: 35PX;
+  display: flex;
+  justify-content: space-around;
+  gap: 30vw;
+
+}
+
+.logo {
+  font-size: 3vw;
+  color: aliceblue;
+  text-shadow: 0 0 70px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px rgb(255, 255, 009);
+
+
+
+}
+
+#ENROLL-1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5vw;
+  background: rgb(28, 39, 65);
+  border: 1px solid white;
+  color: beige;
+  
+  margin-top: 1vw;
+
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-top-left-radius: 2vw;
+  border-bottom-right-radius: 2vw;
+  border-bottom-left-radius: 2vw;
+
+}
+
+#LOGIN {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3vw;
+
+  color: rgb(255, 255, 255);
+
+  margin-top: 1vw;
+
+}
+
+.cont-1 {
+  display: flex;
+
+
+  gap: 2rem;
+  width:300px;
+}
+
+#LOGIN:hover {
+  opacity: 0.5;
+}
+
+#ENROLL-1:hover {
+  background: transparent;
+  
+}
+
+
+#cont {
+  color: white;
+  
+  width: 100%;
+  font-size: 1.5vw;
+  font-weight: 600;
+  text-align: left;
+  padding-left: 10vw;
+}
+
+.nav {
+  
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 5rem;
+}
+
+#heading {
+  font-size: 1.5vw;
+  text-decoration: none;
+  color: beige;
+  
+  font-weight: 300;
+  font-weight: 300;
+  display: inline-block;
+}
+
+
+#heading::after {
+  content: '';
+  
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: rgb(255, 255, 255);
+  transition: 300ms;
+}
+
+#heading:hover::after {
+  width: 100%;
+  opacity: 0.6;
+}
+
+
+#main {
+  height: 17vw;
+
+  margin-top: 8rem;
+  width: 70%;
+
+
+  margin-left: 9rem;
+}
+
+#school {
+  font-size: 3vw;
+  
+  font-family: sans-serif;
+  color: #ffffff;
+
+
+
+
+}
+
+#joly {
+  margin-top: 1rem;
+  color: blanchedalmond;
+  font-size: 2vw;
+  
+}
+
+#enroll-1 {
+  background: transparent;
+  backdrop-filter: blur(20px);
+  padding-left: 4vw;
+  padding-right: 4vw;
+  color: beige;
+  border: 1PX SOLID WHITE;
+  font-size: 2vw;
+  
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+  cursor: pointer;
+}
+
+#enroll-1:hover {
+  background: rgb(28, 39, 65);
+
+}
+
+#goo {
+  color: beige;
+  font-size:1.7vw;
+
+
+
+}
+
+#KOL {
+  color: beige;
+  font-size: 1.1vw;
+
+  padding-left: 7vw;
+  text-align: left;
+
+}
+
+.email {
+  
+  display: flex;
+  justify-content: right;
+  font-size: 1.5vw;
+}
+
+#element {
+  margin-top: 3rem;
+  width: 40%;
+  text-align: center;
+  
+  
+}
+
+#input {
+  background: transparent;
+  font-size: 1.5vw;
+  color: beige;
+}
+
+#btn {
+  background: rgb(28, 39, 65);
+  color: beige;
+  font-size: vw;
+  border: 0.6px solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+
+}
+
+#check {
+  color: beige;
+  margin-top: 1rem;
+  font-size: 1.1vw;
+  margin-right: 6rem;
+}
+
+#btn:hover {
+  background: transparent;
+}
+
+
+
+
+.page-2 {
+background-color: black;
+  border-bottom: 0.1px solid rgb(24, 23, 23);
+  font-family: sans-serif;
+  height: 28vw;
+  display: flex;
+}
+
+#box-1 {
+
+  border-right: 0.1px solid rgb(24, 23, 23);
+  height: 28vw;
+  width: 50%;
+  
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#box-2 {
+  color: beige;
+  font-size: 3vw;
+  text-align: center;
+  height: 28vw;
+  width: 50%;
+  padding: 5vw;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+#que-1 {
+  color: rgb(255, 255, 255);
+  font-size: 4vw;
+  padding: 7vw;
+  font-family: "Irish Grover", serif;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  
+  height: 28vw;
+}
+
+
+
+.page-3 {
+
+
+  height: 28vw;
+  display: flex;
+
+  color: beige;
+}
+
+
+
+#box-4 {
+  padding: 7vw;
+  height: 28vw;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: center;
+  color: beige;
+
+  
+}
+
+#box-3 {
+  border-right: 0.1px solid rgb(24, 23, 23);
+  font-size: 30px;
+  text-align: center;
+  height: 28vw;
+  width: 50%;
+  padding: 5vw;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+#blur {
+  backdrop-filter: blur(10px);
+  height: 4.6rem;
+}
+
+#st {
+  font-size: 1.4vw;
+
+}
+
+.backg-2 {
+  background-image: url('sean-pollock-PhYq704ffdA-unsplash.jpg');
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#pg {
+  height: 100vh;
+
+  width: 50%;
+
+}
+
+#pg-1 {
+  padding: 4vw;
+  color: rgb(209, 209, 191);
+  font-size: 4vw;
+  font-family: sans-serif;
+
+
+}
+
+#pg-1-1 {
+  color: rgb(209, 209, 191);
+  font-size: 1.8vw;
+  padding-left: 4.3vw;
+  padding-right: 6vw;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#pg-a {
+  height: 100vh;
+
+  width: 50%;
+
+}
+
+
+
+#pg-1-2 {
+  color: rgb(209, 209, 191);
+  font-size: 1.2vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 5vw;
+  margin-top: 8rem;
+
+}
+
+#btn-2 {
+  background: transparent;
+  font-size: 1.5vw;
+  margin-left: 8vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border: 0.2px solid white;
+}
+
+#readmore {
+  color: rgb(255, 255, 255);
+}
+
+#btn-2:hover {
+  background: rgb(28, 39, 65);
+}
+
+
+
+.pg-5 {
+  background-color: black;
+  height: 900px;
+
+
+}
+
+#h-1 {
+
+  text-align: center;
+
+}
+
+#h1-1 {
+  color: beige;
+  font-size: 4.5vw;
+  margin-top: 2vw;
+  font-family: "Irish Grover", serif;
+  display: inline-block;
+}
+
+
+
+#h1-1::after {
+  content: '';
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: rgb(255, 255, 255);
+  transition: 300ms;
+}
+
+#h1-1:hover::after {
+  width: 100%;
+}
+
+#pg-6 {
+  text-align: center;
+}
+
+#pg-6-1 {
+  height: 150px;
+  font-size: 1.3vw;
+  color: beige;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  font-family: sans-serif;
+}
+
+.acd {
+
+
+  height: 250px;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+
+}
+
+#bx-1 {
+  height: 200px;
+  border-left: 0.1px solid white;
+  border-right: 0.1px solid white;
+  margin: 20px;
+  border-radius: 20px;
+  width: 33.3%;
+  
+}
+
+
+#h12 {
+  color: beige;
+
+  font-size: 2vw;
+  text-align: center;
+  padding-top: 2.5vw;
+  padding-right: 2.5vw;
+  padding-left: 2.5vw;
+  padding-bottom: 1.5vw;
+  font-family: "Playwrite IN", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+#btnn {
+  font-size: 2vw;
+  margin-left: 6vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-radius: 10px;
+
+
+  border: 0.2PX SOLID white;
+  color: beige;
+
+
+  background: linear-gradient(rgb(28, 39, 65, 06), rgb(0, 0, 0, 0));
+
+
+}
+
+#btnn:HOVER {
+  background: transparent;
+}
+
+
+#bx-2 {
+  height: 200px;
+  border-left: 0.1px solid white;
+  border-right: 0.1px solid white;
+  margin: 20px;
+  border-radius: 20px;
+  width: 33.3%;
+  
+}
+
+#bx-3 {
+  height: 200px;
+  border-left: 0.1px solid white;
+  border-right: 0.1px solid white;
+  margin: 20px;
+  border-radius: 20px;
+  width: 33.3%;
+  
+}
+
+#blur {
+  height: 100px;
+  backdrop-filter: blur(10px);
+}
+
+#vol {
+  height: 200px;
+  margin-top: rem;
+  display: flex;
+
+}
+
+#vol-1 {
+  height: 200px;
+  width: 33.3%;
+  border-left: 0.1px solid white;
+  border-right: 0.1px solid white;
+  border-radius: 20px;
+  margin: 20px;
+
+
+
+}
+
+#vol-2 {
+  height: 200px;
+  width: 33.3%;
+  border-left: 0.1px solid white;
+  border-right: 0.1px solid white;
+  margin: 20px;
+  border-radius: 20px;
+
+}
+
+#vol-3 {
+  height: 200px;
+  width: 33.3%;
+  border-left: 0.1px solid white;
+  border-right: 0.1px solid white;
+  margin: 20px;
+
+  border-radius: 20px;
+
+}
+
+
+
+
+#backg-3 {
+  height: 80%;
+width: 100%;
+
+  background-image: url('sirisvisual-J4M9FKPEaUA-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(0, 0, 0);
+}
+
+#roof {
+  color: beige;
+  font-size: 8vw;
+  padding-right: 8vw;
+  padding-left: 8vw;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+
+
+}
+
+#ROOF-1 {
+  color: beige;
+  font-size: 2vw;
+  text-align: right;
+  margin-right: 20vw;
+}
+
+.footer {
+  height: 800px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  
+}
+
+#footer-1 {
+  width: 50%;
+
+}
+
+#footer-h1 {
+  color: beige;
+
+  text-align: center;
+
+  padding-top: 150px;
+  font-size: 4vw;
+
+
+  text-shadow: 0 0 70px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px rgb(255, 255, 009);
+
+}
+
+#footer-h2 {
+  color: beige;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  font-size: 5vw;
+  padding-top: 4vw;
+  border-right: 1px solid rgb(44, 43, 43);
+}
+
+#footer-11 {
+  text-align: center;
+}
+
+#footer-h3 {
+  color: beige;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  font-size: 2vw;
+  border: 0.2px solid rgb(255, 255, 255);
+  margin-top: 2vw;
+  text-align: center;
+  background: transparent;
+}
+
+#footer-h3:hover {
+  background-color: rgb(15, 24, 46);
+}
+
+#rights {
+  height: 25px;
+  font-weight: 800;
+  background-color: beige;
+  text-align: center;
+  font-size: 1vw;
+}
+
+#footer-2 {
+
+
+
+  width: 50%;
+  height: 400px;
+
+  text-align: center;
+
+}
+
+#footer-21-a {
+  color: beige;
+  font-size: 5vw;
+
+  margin-top: 10vw;
+}
+
+#p1 {
+  color: beige;
+  font-size: 2vw;
+  font-weight: 600;
+  margin-left: 2vw;
+}
+
+#p2 {
+  color: beige;
+  font-size: 2vw;
+  font-weight: 600;
+  margin-left: 10vw;
+}
+
+#n1 {
+  color: beige;
+  margin-top: 50px;
+  font-size: 2.5vw;
+}
+
+#n2 {
+  color: beige;
+  font-size: 2vw;
+  font-weight: 600;
+  margin-left: 10vw;
+}
+
+#follow-1 {
+  color: beige;
+  font-size: 4vw;
+  margin-top: 2vw;
+}
+
+#lo {
+
+  text-decoration: none;
+  font-size: 1.6vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*about*/
+
+
+#nav-1 {
+  background-color: black;
+  margin-top: 0px;
+}
+
+
+
+.container-1-2 {
+  color: beige;
+  padding-TOP: 20px;
+  display: flex;
+  justify-content: space-around;
+  gap: 30vw;
+
+}
+
+.nav-2 {
+  
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 5rem;
+  padding: 20PX;
+}
+
+
+
+.ar {
+  height: 90vw;
+  
+  display: flex;
+
+}
+
+#ar-1 {
+  height: 90vw;
+  
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(14, 13, 13);
+}
+
+
+#ar-1-1 {
+  padding: 4vw;
+  font-size: 3vw;
+  font-weight: 700;
+  color: beige;
+  
+
+}
+
+#ar-1-2 {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: beige;
+  height: 23.3%;
+  
+}
+
+#ar-1-3 {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: beige;
+  height: 43.3%;
+  
+}
+
+
+#ar-2 {
+  
+  width: 50%;
+  height: 90vw;
+
+
+  background-image: url('sirisvisual-J4M9FKPEaUA-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+#link {
+  text-decoration: none;
+  
+}
+
+
+#aw {
+  height: 60vw;
+  display: flex;
+  
+  background-image: url('aditya-vyas-7ygsBEajOG0-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+
+}
+
+#aw-1 {
+  width: 50%;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+
+#aw-2 {
+  
+  width: 50%;
+
+}
+
+
+
+#aw-2-1 {
+  color: rgb(255, 255, 255);
+  font-size: 1.2vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 26vw;
+
+}
+
+
+
+
+
+
+#big {
+  color: cadetblue;
+  font-size: 5vw;
+  display: block;
+  
+}
+
+
+
+#aw-h1 {
+  
+  padding-top: 4vw;
+  color: beige;
+  padding-left: 12vw;
+  padding-right: 12vw;
+  font-size: 2.5vw;
+
+
+}
+
+
+
+#big-1 {
+  
+  display: block;
+  color: cadetblue;
+  font-size: 5vw;
+  padding-top: 20px;
+}
+
+
+
+#aw-h2 {
+  
+  font-size: 2.5vw;
+  color: beige;
+  padding-left: 12vw;
+  padding-right: 12vw;
+  
+
+
+
+}
+
+
+
+#big-2 {
+  color: cadetblue;
+  font-size: 5vw;
+  display: block;
+  padding-top: 20px;
+  
+}
+
+
+
+#aw-h3 {
+
+  
+  font-size: 2.5vw;
+  color: beige;
+  padding-left: 12vw;
+  padding-right: 12vw;
+
+
+
+}
+
+
+
+
+#ET {
+  height: 15vw;
+  background-color: rgb(255, 255, 255);
+  
+}
+
+#ET-1-1 {
+  margin-top: rem;
+  color: rgb(0, 0, 0);
+  font-size: 7vw;
+  font-family: "Playwrite IN", serif;
+  text-align: center;
+  
+}
+
+#big-4 {
+  color: rebeccapurple;
+  font-size: 5vw;
+  
+}
+
+
+#ET-1-2 {
+  color: rgb(0, 0, 0);
+  font-size: 2vw;
+  font-weight: 500;
+  text-align: center;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Modules*/
+
+#cover{
+  
+  height: 13vw;
+  background-color: rgb(23, 20, 20);
+}
+#cover-heading{
+  color:beige;
+  font-size: 3.8vw;
+  text-align: center;
+  padding-top: 2vw;
+  font-weight: 900;
+
+}
+#cover-para{
+  color: beige;
+  font-size: 2.4vw;
+  font-weight: 800;
+  text-align: center;
+  
+}
+
+
+
+#HU{
+  
+  height: 40vw;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+
+
+#HU-1{
+  
+  border: 0.1px solid rgb(56, 49, 49);
+margin: 2vw;
+  height: 35vw;
+  width: 33%;
+}
+#structure{
+  
+  
+  height: 18.9vw;
+  backgrounD-image: url("jose-vazquez-Q5RBHz9cu1A-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  width: 100%;
+}
+
+
+
+#structure-2{
+  
+  height: 18.9vw;
+  background-image: url("photo-1715322350396-497487151d0b.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  width: 100%;
+}
+
+#structure-3{
+  
+  height: 18.9vw;
+  background-image: url("photo-1553877522-43269d4ea984.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  width: 100%;
+}
+
+#structure-4{
+  
+  height: 18.9vw;
+  background-image: url("photo-1444653614773-995cb1ef9efa.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;  
+  width: 100%;
+}
+
+#structure-5{
+
+  height: 18.9vw;
+  background-image: url("photo-1551135049-8a33b5883817.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  width: 100%;
+}
+
+
+#structure-6{
+  
+  height: 18.9vw;
+  background-image: url("photo-1454165804606-c3d57bc86b40.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  width: 100%;
+}
+
+
+#HU-h1{
+  border: px solid green;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-size: 2vw;
+  text-align: center;
+  padding: 1vw;
+}
+
+#free{
+  border: px solid green;
+  color: black;
+  font-size: 1.8vw;
+  color: rgb(162, 13, 13);
+  margin-left: 1vw;
+}
+
+#btn-3{
+
+  text-align: center;
+  font-size: 2vw;
+  border: 1.1PX SOLID black;
+ color: rgb(254, 254, 254);
+ background-color: rgb(20, 56, 57);
+  margin-top: 0.3vw;
+  padding-left: 7vw;
+  padding-right: 7vw;
+ border-radius: 1vw;
+ margin-left: 2vw;
+ 
+  border: 0.2px solid rgb(0, 0, 0);
+}
+  
+
+
+#btn-3:hover{
+  border: 2px solid green;
+  background: transparent;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*contact*/
+
+
+
+.backg-5 {
+  height: 140vh;
+  background-image: url('nir-himi-A94bN7z4w0E-unsplash (1).jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: sticky;
+  background-position: center;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.contact-container {
+  max-width: 70vw;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+
+}
+
+.contact-container h1 {
+  text-align: center;
+  font-size: 50px;
+  color: beige;
+  text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+.contact-container p {
+  text-align: center;
+  font-size: 18px;
+  color: beige;
+  margin-bottom: 30px;
+
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+  margin: 0px;
+}
+
+.contact-form label {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border: 1px solid beige;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  background: beige;
+  color: black;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+
+}
+
+.contact-form button:hover {
+  background: rgb(255, 200, 100);
+}
+
+.cpo {
+  color: black;
+  margin: 0px;
+  background-color: beige;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TEAM*/
+
+#looper{
+  height: 7vw;
+  background-color: #1a1a1a;
+
+}
+
+#looper-1{
+  color: beige;
+  text-align: center;
+  font-size: 5vw;
+  
+}
+
+#looper-2{
+  padding: 2VW;
+  height: 148vw;
+  background-color: #111;
+  
+}
+
+#looper-3{
+ border: px solid #609597;
+height: 21vw;
+backgrounD-image: url("WhatsApp Image 2025-03-07 at 20.46.40_28bcae11.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+width: 20%;
+border-radius: 2vw;
+}
+
+
+#looper-3-1{
+  border: px solid #609597;
+ height: 21vw;
+ margin-top: 5vw;
+ backgrounD-image: url("WhatsApp Image 2025-03-07 at 20.16.47_a7c3c3e4.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ width: 20%;
+ border-radius: 2vw;
+ 
+ }
+#looper-4{
+  color: beige;
+  margin: 1vw;
+  font-size: 3vw;
+  text-shadow: 0 0 70px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px rgb(255, 255, 009);
+  
+}
+
+#looper-5{
+  color: beige;
+  font-size: 1.3vw;
+  font-weight: 500;
+  
+}
+
+
+
+
+
+#space{
+  height: 1vw;
+  width: 100%;
+  border-radius: 3vw;
+  background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*enrollment*/
+#icon{
+  
+  background-color: rgb(17, 16, 16);
+  text-align: center;
+  height: 8vw;
+  width: 100%;
+
+}
+
+#icon-1{
+font-size: 3vw;
+line-height: 8vw;
+color: beige;
+}
+
+
+#scar{
+  height: 100vw;
+  width: 100%;
+  background-color: black;
+}
+
+#scar-1{
+  
+  height: 30vw;  
+  height: 18.9vw;
+  backgrounD-image: url("jose-vazquez-Q5RBHz9cu1A-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+#scar-1-2{
+  
+  height: 30vw;  
+  height: 18.9vw;
+  backgrounD-image:  url("photo-1715322350396-497487151d0b.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+#scar-1-3{
+  
+  height: 30vw;  
+  height: 18.9vw;
+  backgrounD-image:  url("photo-1553877522-43269d4ea984.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+#scar-1-4{
+  
+  height: 30vw;  
+  height: 18.9vw;
+  backgrounD-image:  url("photo-1444653614773-995cb1ef9efa.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
+#scar-1-5{
+  
+  height: 30vw;  
+  height: 18.9vw;
+  backgrounD-image: url("photo-1551135049-8a33b5883817.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+#scar-1-6{
+  
+  height: 30vw;  
+  height: 18.9vw;
+  backgrounD-image:url("photo-1454165804606-c3d57bc86b40.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+#scar-2{
+  color: beige;
+  margin: 3vw;
+}
+#big-6{
+  color: #a57bff;
+}
+
+#scar-3{
+  gap: 2vw;
+  font-size: 2vw;
+  padding-left: 7vw;
+  padding-right: 20vw;
+  color: beige;
+  
+    font-family: "Cedarville Cursive", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+#scar-4{
+  
+  font-size: 2VW;
+  padding-left: 15VW;
+  padding-right: 15VW;
+  margin: 2vw;
+  margin-left:7vw;
+  border-radius: 2vw;
+cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#scar-4:hover{
+  background-color: transparent;
+  color: beige;
+  border: 1px solid white;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* effects*/
+@keyframes fadeToBright {
+  0% {
+      opacity: 0;
+      filter: brightness(50%);
+  }
+  100% {
+      opacity: 1;
+      filter: brightness(100%);
+  }
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  animation: fadeToBright 3s ease-in-out forwards;
+}
+ 
+#cont {
+ 
+  animation: fadeToBright 3.5s ease-in-out forwards;
+} 
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 3s ease-out, transform 3s ease-out;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/* Basic button styling */
+#enroll-1{
+  background: rgb(28, 39, 65);
+  border: none;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  z-index: 1;
+  /* Pulse animation for extra attraction */
+  animation: pulse 2.5s infinite;
+}
+
+/* Pulse keyframes */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(215, 218, 230, 0.7);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px 10px rgba(67, 100, 247, 0.4);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(67, 100, 247, 0.7);
+  }
+}
+
+/* Hover effect for extra pop */
+#enroll-1:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px 5px rgba(67, 100, 247, 0.8);
+}
+
+
+/* Define the keyframes for the left-to-right slide */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Apply the animation to the email container */
+.email {
+  /* Optional: initial state if needed */
+  opacity: 0;
+  animation: slideInLeft 3.5s ease-out forwards;
+}
+
+/* Apply the animation to the inner element with a slight delay */
+#element {
+  opacity: 0;
+  animation: slideInLeft 3.5s ease-out 0.3s forwards;
+}
+
+
+
+
+
+
+
+
+
+
+/* Apply a repeating animated gradient background */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+}
+
+/* Define the keyframes for the gradient animation */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+  background: #1a1a1a;  /* Dark background */
+  border-radius: 6px;
+}
+
+/* Scrollbar thumb (Grill Effect) */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #333 25%, transparent 25%, transparent 50%, #938585 50%, #ffffff 75%, transparent 75%);
+  background-size: 12px 12px;
+  border-radius: 6px;
+  border: 2px solid #111; /* Optional border for a polished look */
+}
+
+/* Scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #6e6d6d 25%, transparent 25%, transparent 50%, #555 50%, #555 75%, transparent 75%);
+  background-size: 12px 12px;
+}
+
+
+
+
+
+
+
+
+
+

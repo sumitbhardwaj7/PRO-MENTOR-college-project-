@@ -1,0 +1,254 @@
+/*
+
+* {
+  margin: 0px;
+
+
+}
+
+
+ 
+.backg {
+  height: 120vh;
+  background-image: url('nir-himi-A94bN7z4w0E-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+
+  
+  background-position: center;
+  background-color: rgb(0, 0, 0);
+
+}
+
+
+
+.container-1 {
+  color: beige;
+  margin-top: 35PX;
+  display: flex;
+  justify-content: space-around;
+  gap: 35vw;
+
+}
+
+.logo {
+  font-size: 3vw;
+  color: aliceblue;
+  text-shadow: 0 0 70px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px rgb(255, 255, 009);
+
+
+
+}
+
+#ENROLL-1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5vw;
+  background: rgb(28, 39, 65);
+  border: 1px solid white;
+  color: beige;
+  height: 40px;
+  padding-left: 40px;
+  border-radius: 0PX;
+  padding-right: 40px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+}
+
+#LOGIN {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+
+  color: rgb(255, 255, 255);
+
+  margin-top: 15px;
+
+}
+
+.cont-1 {
+  display: flex;
+
+
+  gap: 2rem;
+  width: 300px;
+}
+
+#LOGIN:hover {
+  opacity: 0.5;
+}
+
+#ENROLL-1:hover {
+  background: transparent;
+}
+
+#cont {
+  color: white;
+
+  width: 30%;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.nav {
+
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 5rem;
+}
+
+#heading {
+  text-decoration: none;
+  color: beige;
+  font-weight: 300;
+  font-weight: 300;
+  display: inline-block;
+}
+
+
+#heading::after {
+  content: '';
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: rgb(255, 255, 255);
+  transition: 300ms;
+}
+
+#heading:hover::after {
+  width: 100%;
+  opacity: 0.6;
+}
+
+
+#main {
+  height: 320px;
+
+  margin-top: 8rem;
+  width: 70%;
+
+  margin-left: 9rem;
+}
+
+#school {
+  font-size: 65px;
+
+  font-family: sans-serif;
+  color: #ffffff;
+
+
+
+
+}
+
+#joly {
+  margin-top: 1rem;
+  color: blanchedalmond;
+  font-size: 26px;
+}
+
+#enroll-1 {
+  background: transparent;
+  padding-left: 50PX;
+  padding-right: 50PX;
+  color: beige;
+  border: 1PX SOLID WHITE;
+  font-size: 25PX;
+
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+  cursor: pointer;
+}
+
+#enroll-1:hover {
+  background: rgb(28, 39, 65);
+
+
+}
+
+#goo {
+  color: beige;
+  font-size: 26px;
+
+
+
+}
+
+#KOL {
+  color: beige;
+  font-size: 16px;
+  margin-right: 12rem;
+
+}
+
+.email {
+
+  display: flex;
+  justify-content: right;
+}
+
+#element {
+  margin-top: 3rem;
+  width: 40%;
+  text-align: center;
+  border-left: 2px solid white;
+
+}
+
+#input {
+  background: transparent;
+  font-size: 22px;
+  color: beige;
+}
+
+#btn {
+  background: rgb(28, 39, 65);
+  color: beige;
+  font-size: 22px;
+  border: 0.6px solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+
+}
+
+#check {
+  color: beige;
+  margin-top: 1rem;
+  margin-right: 6rem;
+}
+
+#btn:hover {
+  background: transparent;
+}
+
+
+
+
+
+document.getElementById("floatingInput").addEventListener(
+"submit",function (event) {
+    event.preventDefault();
+    let email = document.getElementById("floatingInput").Value
+    let password = document.getElementById("floatingPassword").Value
+    let validemail = "user@example.com";
+    let validpassword = "123456789";
+
+
+    if (email==validemail && password==validpassword) {
+        document.getElementById("message").textContent="login successfull"
+        document.getElementById("message").style.color="green";
+        window.location.href="index.html";
+    }else{
+        document.getElementById("message").textContent="invalid email or invalid password";
+        document.getElementById("message").style.color="red";
+    }
+ }
+ );
+
+
